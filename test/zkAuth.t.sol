@@ -10,7 +10,7 @@ contract zkAuthTest is Test {
     function setUp() public {
         zk = new zkAuth();
         uint256 y = 47456373209371720487288017416491987723894412596016602859744255950016639482067;
-        zk.set_commitment(address(this), y);
+        zk.set_commitment(y);
     }
 
     function test_isVerified() public {
