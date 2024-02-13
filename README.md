@@ -48,7 +48,7 @@ $ anvil
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+forge create --private-key <PRIVATE_KEY> --rpc-url https://eth-sepolia.g.alchemy.com/v2/<API_KEY> --verify --etherscan-api-key <ETHERSCAN_API_KEY> <CONTRACT_NAME>
 ```
 
 ### Cast
