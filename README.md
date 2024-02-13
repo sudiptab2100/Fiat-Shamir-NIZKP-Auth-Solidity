@@ -67,6 +67,14 @@ $ cast --help
 
 ## Smart Contract Details
 
+### Get Public Params
+
+```getP(), getQ(), getG()```: get P, Q, G
+
+### Get Authentication Count
+
+```get_k(address user)```: get valid authentication count (k) of a user
+
 ### Set Commitment
 
 ```set_commitment(uint256 y)```: set commitment for message.sender
