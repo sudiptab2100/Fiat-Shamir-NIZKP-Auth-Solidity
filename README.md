@@ -64,3 +64,21 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+## Smart Contract Details
+
+### Set Commitment
+
+```set_commitment(uint256 y)```: set commitment for message.sender
+
+### Get Commitment
+
+```get_commitment(address user)```: get commitment of a user
+
+### Check Authenticity
+
+```isAuthentic(uint256 y, uint256 k, uint256 t, uint256 r)```: check if the proof is authentic or not. k is a counter used in generating challenge (c).
+
+### Authenicate
+
+```authenticate(address user, uint256 t, uint256 r)```: authenticate user with proof {t, r}. This will increment the authentication count (k) so that proof can't be reused.
