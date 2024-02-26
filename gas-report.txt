@@ -1,0 +1,17 @@
+No files changed, compilation skipped
+
+Running 1 test for test/zkAuth.t.sol:zkAuthTest
+[32m[PASS][0m test_isVerified() (gas: 34942)
+Test result: [32mok[0m. [32m1[0m passed; [31m0[0m failed; [33m0[0m skipped; finished in 3.13ms
+| src/zkAuth.sol:zkAuth contract |                 |       |        |       |         |
+|--------------------------------|-----------------|-------|--------|-------|---------|
+| Deployment Cost                | Deployment Size |       |        |       |         |
+| 305543                         | 1558            |       |        |       |         |
+| Function Name                  | min             | avg   | median | max   | # calls |
+| authenticate                   | 29602           | 29602 | 29602  | 29602 | 1       |
+| set_commitment                 | 22424           | 22424 | 22424  | 22424 | 1       |
+
+
+
+ 
+Ran 1 test suites: [32m1[0m tests passed, [31m0[0m failed, [33m0[0m skipped (1 total tests)
