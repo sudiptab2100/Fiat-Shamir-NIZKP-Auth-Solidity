@@ -1,3 +1,38 @@
+# zkAuth: ZK based Authentication System for Ethereum
+
+- Used Fiat-Shamir heuristic to convert a 3-round interactive protocol to a non-interactive zero-knowledge proof.
+- Implemented a ZK based authentication system using the above technique.
+- Used Foundry to build, test and deploy the smart contract.
+
+## Prover-Py
+
+- Commitment & Proof Generator is implemented in Python.
+- Smart Contract interaction through Web3.py.
+
+### Setup
+
+```shell
+python3 -m venv env
+source env/bin/activate
+pip install -r prover-py/requirements.txt
+```
+
+### Set Commitment
+
+Set commitment for a user.
+
+```shell
+python prover-py/set_commitment.py
+```
+
+### Authenticate
+
+Authenticate a user.
+
+```shell
+python prover-py/authenticate.py
+```
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
