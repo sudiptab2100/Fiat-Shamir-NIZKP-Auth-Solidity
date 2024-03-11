@@ -39,45 +39,45 @@ python prover-py/authenticate.py
 
 Foundry consists of:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+- **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
+- **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
+- **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
+- **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
 ## Documentation
 
-https://book.getfoundry.sh/
+[Foundry](https://book.getfoundry.sh/)
 
 ## Usage
 
 ### Build
 
 ```shell
-$ forge build
+forge build
 ```
 
 ### Test
 
 ```shell
-$ forge test
+forge test
 ```
 
 ### Format
 
 ```shell
-$ forge fmt
+forge fmt
 ```
 
 ### Gas Snapshots
 
 ```shell
-$ forge snapshot
+forge snapshot
 ```
 
 ### Anvil
 
 ```shell
-$ anvil
+anvil
 ```
 
 ### Deploy
@@ -89,15 +89,15 @@ forge create --private-key <PRIVATE_KEY> --rpc-url https://eth-sepolia.g.alchemy
 ### Cast
 
 ```shell
-$ cast <subcommand>
+cast <subcommand>
 ```
 
 ### Help
 
 ```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+forge --help
+anvil --help
+cast --help
 ```
 
 ## Smart Contract Details
@@ -110,7 +110,7 @@ $ cast --help
 
 ```get_k(address user)```: get valid authentication count (k) of a user
 
-### Set Commitment
+### Set Commitment ()
 
 ```set_commitment(uint256 y)```: set commitment for message.sender
 
